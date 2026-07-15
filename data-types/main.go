@@ -63,9 +63,10 @@ func main() {
 	type Perro struct {
 		Nombre string
 		Edad   int
+		Ismale bool
 	}
 
-	persona := Perro{"Nombre": "Miel", "Edad": 8}
+	persona := Perro{Nombre: "Miel", Edad: 8, Ismale: false}
 	fmt.Println(persona)
 	fmt.Printf("%T\n", persona)
 }
